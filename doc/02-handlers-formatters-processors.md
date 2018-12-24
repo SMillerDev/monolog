@@ -77,6 +77,7 @@
 ### Log to databases
 
 - [_RedisHandler_](../src/Monolog/Handler/RedisHandler.php): Logs records to a [redis](http://redis.io) server.
+- [_InfluxDBHandler_](../src/Monolog/Handler/InfluxDBHandler.php): Logs records to an InfluxDB server.
 - [_MongoDBHandler_](../src/Monolog/Handler/MongoDBHandler.php): Handler to write records in MongoDB via a
   [Mongo](http://pecl.php.net/package/mongo) extension connection.
 - [_CouchDBHandler_](../src/Monolog/Handler/CouchDBHandler.php): Logs records to a CouchDB server.
